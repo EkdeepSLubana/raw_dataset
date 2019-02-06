@@ -1,1 +1,0 @@
-The ISP processed images.
