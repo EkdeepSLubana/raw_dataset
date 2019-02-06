@@ -31,4 +31,7 @@ Using an off-the-shelf faster-RCNN network, we are able to achieve the following
 | RAW images with gamma compression and pixel binning | 76% |
 | JPG images | 76.67% |
 
-Binning used is 10x10 and gamma compression follows the Adobe-98 standard.
+### Notes on detection results
+- Gamma compression follows the Adobe-98 standard.
+- Binning window used is 30x30.
+- An object is said to have been detected if the determined bounding box's overlap with the ground truth box is >40%.
