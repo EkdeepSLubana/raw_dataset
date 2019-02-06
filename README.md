@@ -17,12 +17,13 @@ The annotations for the images can be found in annotations.xls
 
 The image number is given in the imageFilename column and the coordinates for bounding boxes are given in coords_i columns.
 A consecutive quadruple of coords columns forms a single bounding box, and has the following format:
+
 box = [top_left_x, top_left_y, box_height, box_width]
 
 # Original RAW images
 For experimentation purposes, the original RAW images have been uploaded in a google drive and are available at the following link: https://goo.gl/vqSvdE
 
-These images have been converted to the lossless TIFF format. Since .tiff images can be directly processed by any modern vision library, this will allow increase productivity.
+These images have been converted to the lossless TIFF format. Since .tiff images can be directly processed by any modern vision library, this will allow increased productivity.
 
 # Results
 Using an off-the-shelf faster-RCNN network, we are able to achieve the following accuracies:
@@ -36,4 +37,4 @@ Using an off-the-shelf faster-RCNN network, we are able to achieve the following
 ### Notes on detection results
 - Gamma compression follows the Adobe-98 standard.
 - Binning window used is 30x30.
-- An object is said to have been detected if the determined bounding box's overlap with the ground truth box is >40%.
+- An object is said to have been detected if the determined bounding box's overlap with the ground truth box is > 40%.
