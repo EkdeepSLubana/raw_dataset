@@ -22,6 +22,8 @@ box = [top_left_x, top_left_y, box_height, box_width]
 # Original RAW images
 For experimentation purposes, the original RAW images have been uploaded in a google drive and are available at the following link: https://goo.gl/vqSvdE
 
+These images have been converted to the lossless TIFF format. Since .tiff images can be directly processed by any modern vision library, this will allow increase productivity.
+
 # Results
 Using an off-the-shelf faster-RCNN network, we are able to achieve the following accuracies:
 
