@@ -30,4 +30,5 @@ Using an off-the-shelf faster-RCNN network, we are able to achieve the following
 | Original RAW images in the converted format | 16.67% |
 | RAW images with gamma compression and pixel binning | 76% |
 | JPG images | 76.67% |
-| --- | --- |
+
+Binning used is 10x10 and gamma compression follows the Adobe-98 standard.
