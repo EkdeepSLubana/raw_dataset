@@ -30,9 +30,9 @@ Using an off-the-shelf faster-RCNN network, we are able to achieve the following
 
 | Image Format | Accuracy |
 | --- | --- |
-| Original RAW images in the converted format | 16.67% |
-| RAW images with gamma compression and pixel binning | 76% |
-| JPG images | 76.67% |
+| Original RAW images in the converted format | 13.13% |
+| RAW images with gamma compression and pixel binning | 95.04% |
+| JPG images | 97.16% |
 
 ### Notes on detection results
 - Gamma compression follows the Adobe-98 standard.
