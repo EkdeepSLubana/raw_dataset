@@ -30,7 +30,7 @@ Using an off-the-shelf faster-RCNN network, we are able to achieve the following
 
 | Image Format | Accuracy |
 | --- | --- |
-| Original RAW images in the converted format | 13.13% |
+| Original RAW images in the converted format | 36.13% |
 | RAW images with gamma compression and pixel binning | 95.04% |
 | JPG images | 97.16% |
 
